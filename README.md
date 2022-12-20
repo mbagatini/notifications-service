@@ -53,7 +53,7 @@ Both folders contains a `.env` with sensitive information, as the credentials fo
 
 Copy the `.env.example` file and change it's content to your environment. 
 
-*kafka-producer*
+#### kafka-producer
 
 After the creation of the `.env` file, the application is ready to run.
 
@@ -63,7 +63,7 @@ It will dispatch a event, a new notification, which will be received by the cons
 $ node producer.js
 ```
 
-*notifications-service*
+#### notifications-service
 
 After the creation of the `.env` file, it's time to setup the database. So run the migration:
 
